@@ -9,8 +9,9 @@ for(int i=0;i<LEN;i++)
 	cout<<a[i]<<"  ";
 }
 
-bubble(a,LEN-1);
+//bubble(a,LEN-1);
 //qsort(a,0,LEN-1);
+insertsort(a,LEN);
 cout<<endl;
 for(int i=0;i<LEN;i++)
 {	

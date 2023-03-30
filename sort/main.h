@@ -4,3 +4,4 @@
 using namespace std;
 int qsort(int *,int,int);
 int bubble(int *,int);
+int insertsort(int *,int);
