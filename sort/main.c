@@ -1,5 +1,5 @@
 #include "main.h"
-#define LEN 10
+#define LEN 100
 int main()
 {
 int a[LEN];
@@ -12,6 +12,8 @@ for(int i=0;i<LEN;i++)
 //bubble(a,LEN-1);
 //qsort(a,0,LEN-1);
 insertsort(a,LEN);
+//select(a,LEN);
+//shell(a,LEN);
 cout<<endl;
 for(int i=0;i<LEN;i++)
 {	
