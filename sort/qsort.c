@@ -1,6 +1,6 @@
 int qsort(int *a,int l,int r)
 {
-	int i=l;int j=r;int p=a[(l+r)/2];
+	int i=l;int j=r-1;int p=a[(l+r)/2];
 	while(i<=j){
 		while(a[i]<p) i++;
 		while(a[j]>p) j--;
@@ -11,4 +11,5 @@ int qsort(int *a,int l,int r)
 	}
 	if(i<r) qsort(a,i,r);
 	if(j>l) qsort(a,l,j);
+	return 0;
 }
